@@ -1,0 +1,102 @@
+-----------------------------------------------------------------------
+IF..ELSE..
+
+x = 10;
+
+
+System.out.println('aa');
+System.out.println('ab');
+
+if (x < 10)				//ini kalo  nilainya 9, 8, 7 dst 
+{
+	System.out.println('bb');
+}
+else if (x > 11) {			//ini kalo  nilainya 12, 13, 14 dst
+	System.out.println('cc');
+}
+else {					//selain if dan else if diatas, jalanin nya yg ini
+	System.out.println('elseeeee');
+}
+
+
+System.out.println('dd');
+
+
+///// output nya :
+///// aa ab elseeeeee dd
+
+///// kalu x nya diganti 9, 8, 7, dst outputnya
+///// aa ab bb dd
+
+///// kalu x nya diganti 12, 13, 14 dst outputnya
+///// aa ab cc dd
+
+-----------------------------------------------------------------------
+SWITCH CASE
+
+
+x = 2;													
+												   
+switch (x) {						// jadi yang di switch variabel x diatas 
+	case 1 :					// kalo x nya 1
+		System.out.println('satu');
+		break;
+	case 2 :					// kalo x nya 2	
+		System.out.println('dua');
+		break;
+	case 3 :					// kalo x nya 3
+		System.out.println('tiga');
+		break;
+
+	default :					// selain 1, 2, dan 3 (yang gada dalem case)
+		System.out.println('ga ada dalam case');
+		break;
+}
+System.out.println('selesai');				//ini ga terpengaruh switch case nya
+
+
+output nya :
+///// dua selesai
+
+kalo x nya diganti 4 outputnya (DIGANTI 5, 6, , 7, 8 SAMA AJA)
+///// ga ada dalam case selesai
+
+
+-----------------------------------------------------------------------
+FOR
+
+for (a=0; a<5; a++) { // yg di dalem for akan dijalankan mulai dari a=0, lalu ditambah 1 (a++) hingga nilai a<5, yaitu 4
+	System.out.println('fredi');
+}
+System.out.println('selesai');     // ini ga pengaruh for nya
+
+outputnya
+///// fredi fredi fredi fredi fredi selesai
+
+
+
+
+
+
+1..
+while (x>0) {
+	x--;
+	
+	2..
+	if(x%3 != 0) {
+		4..
+		continue;
+	}
+	5..
+	if(x%4 == 0) {
+		6..
+		break;
+	}
+	7..
+}
+8..
+
+
+
+
+
